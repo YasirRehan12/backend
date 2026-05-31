@@ -8,7 +8,7 @@ const mongoose = require("mongoose");
 const app = express();
 
 const corsOptions = {
-    origin: process.env.FRONTEND_URL,
+    origin: "https://frontend-nine-theta-59.vercel.app",
     methods: ["GET", "POST", "DELETE", "PUT", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
